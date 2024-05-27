@@ -3,7 +3,6 @@ class Solution:
 
         index = 0
         ls = len(s)
-        ordered = sorted(wordDict, reverse=True)
         while index < ls:
             for w in wordDict:
                 j = 0
