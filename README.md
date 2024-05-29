@@ -1,1 +1,1 @@
-In this repository I will add some of my github resolved problems
+In this repository I will add some of the problems I had resolved from LeetCode
