@@ -1,3 +1,14 @@
+# Link: https://leetcode.com/problems/word-break/description/
+# Status: Solution not accepted
+
+# Problem statement: For a string "s" and a list of strings "wordDict"; 
+# return true if there is a possible way to form s, concatenating the strings in wordDict
+
+# Had tried with recursion; it works but in certain testcases it exceeds runtime
+# Current solution tries a Dynamic programming approach, however it is wrong.
+# It uses a pointer to a current index to start, checks if I can add any word that goes through that index and moves
+# It is a wrong algorithm, because it allows for the superposition of words
+
 class Solution:
     def wordBreak(self, s: str, wordDict: list[str]) -> bool:
 
