@@ -1,8 +1,8 @@
 # Link: https://leetcode.com/problems/word-break-ii/description/
 # Status: Accepted and beats 97%!
 
-# Problem statement: For a string "s" and a list of strings "wordDict" and ask for all the possible combinations
-# of word in wordDict (can be repetated) so that it forms string "s"
+# Problem statement: For a string "s" and a list of strings "wordDict" we want to return all the possible combinations
+# of wordw in wordDict (can be repetated) so that it forms string "s"
 
 # My solution: Use recursion that takes a current string "s" + wordDict + a current solution list
 # Idea: Use backtracking to check all possible combinations and see if they work
