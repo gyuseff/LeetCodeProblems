@@ -1,4 +1,4 @@
-# Link: https://leetcode.com/problems/word-break-ii/description/
+# Link: https://leetcode.com/problems/word-break-ii
 # Status: Accepted and beats 97%!
 
 # Problem statement: For a string "s" and a list of strings "wordDict" we want to return all the possible combinations

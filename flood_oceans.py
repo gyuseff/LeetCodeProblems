@@ -1,4 +1,4 @@
-# Link: https://leetcode.com/problems/pacific-atlantic-water-flow/description/
+# Link: https://leetcode.com/problems/pacific-atlantic-water-flow
 # Status: Accepted and beats 37%
 
 # Problem statement: There is a rectangular island that is connected to the Pacific Ocean in the north and west; and with the Atlantic Ocean east and south.

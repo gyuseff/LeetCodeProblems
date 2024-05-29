@@ -1,4 +1,4 @@
-# Link: https://leetcode.com/problems/word-break/description/
+# Link: https://leetcode.com/problems/word-break
 # Status: Solution not accepted
 
 # Problem statement: For a string "s" and a list of strings "wordDict"; 
