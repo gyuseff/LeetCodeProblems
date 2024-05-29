@@ -1,4 +1,17 @@
+# Link: https://leetcode.com/problems/word-break-ii/description/
+# Status: Accepted and beats 97%!
+
+# Problem statement: For a string "s" and a list of strings "wordDict" and ask for all the possible combinations
+# of word in wordDict (can be repetated) so that it forms string "s"
+
+# My solution: Use recursion that takes a current string "s" + wordDict + a current solution list
+# Idea: Use backtracking to check all possible combinations and see if they work
+# Base case 1: The current string is empty -> The current solution works -> append it to the output
+# Base case 2: The current string is shorter than any word in wordDict -> I can't trim this string any longer
+# Recrusive call: For each
+
 class Solution:
+
     def wordBreak(self, s: str, wordDict: list[str]) -> list[str]:
 
         output : list[str] = []
@@ -6,15 +19,22 @@ class Solution:
         min_len = min([len(x) for x in wordDict])
 
         def recursion(s: str, current_sol: str) -> None:
+            #Base cases
             if s == "":
                 output.append(current_sol[1:])
                 return
             if len(s) < min_len:
                 return
             
+            #Actual recursive call
+
             for w in wordDict:
                 ls = len(s)
                 lw = len(w)
+                
+                #If length of the current string s is less than the current word (to avoid index out of range error)
+                #AND s starts with the current word
+                #Let's invoke the recursion on s trimed from the new word and append w to the current solution
                 if ls >= lw:
                     if s[0:lw] == w:
                         new_s = s[lw:]
