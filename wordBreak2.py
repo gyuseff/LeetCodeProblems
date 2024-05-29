@@ -8,7 +8,7 @@
 # Idea: Use backtracking to check all possible combinations and see if they work
 # Base case 1: The current string is empty -> The current solution works -> append it to the output
 # Base case 2: The current string is shorter than any word in wordDict -> I can't trim this string any longer
-# Recrusive call: For each
+# In each recursive call I check if the current string "s" starts with each of the word, if it does, call recursion in s - word and add word to the solution
 
 class Solution:
 
