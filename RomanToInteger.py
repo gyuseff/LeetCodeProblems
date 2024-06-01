@@ -9,7 +9,7 @@ class Solution:
     def romanToInt(self, s: str) -> int:
         index : int = 0
         output : int = 0
-        s_len int = len(s)
+        s_len : int = len(s)
         while index < s_len:
             if s[index] == 'M':
                 output += 1000
