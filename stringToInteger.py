@@ -1,3 +1,19 @@
+# Link: https://leetcode.com/problems/string-to-integer-atoi
+# Status: Solution accepted and beats 90.96%
+
+# Problem statement: Implement the atoi function, which takes a string and converts it into a 32-bit signed integer
+
+# We must follow the following rules:
+# 1 -> Ignore the leading whitespaces
+# 2 -> If the first proper character is "-" it is negative, if it is a digit or "+" it is positive
+# 3 -> Current output starts as 0
+# 4 -> Ignore leading zeros
+# 5 -> Add digits until the string finishes or there is a non-digit character
+# 6 -> Round the resultant number to -2**31 or 2**31 -1
+
+# Solution uses an iterative approach fulling all the rules
+
+
 class Solution:
     def myAtoi(self, s: str) -> int:
         
