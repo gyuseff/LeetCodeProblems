@@ -1,4 +1,4 @@
-# Link: https://leetcode.com/problems/reverse-integer
+# Link: https://leetcode.com/problems/longest-common-prefix
 # Status: Solution accepted and beats 91.64%
 
 # Problem statement: Given a list of strings, return the common prefix between all of them.
